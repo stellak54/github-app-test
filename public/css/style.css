@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(1, 20, 20);
+    color: rgb(199, 211, 210);
+   
+    border:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+ 
+    list-style:none;
+    
+}
+
+.menu-area {
+    border-bottom: 1px solid rgba(199, 211, 210,0.3);
+    padding: 0 10rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+
+.menu-area .logo {
+   
+    display: flex;
+
+    
+}
+
+.menu-area .menu {
+   
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.menu-area .menu ul{
+   
+    display: flex;
+    align-items: center;
+}
+
+.menu-area .menu ul li{
+    padding: 0 1rem;
+    margin: 0 0.2rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.menu-area .menu ul li:hover{
+    color: rgb(117, 126, 125);
+    
+}
+.menu-area .auth {
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.menu-area .auth a{
+    
+    padding: 0.3rem 1rem;
+    background-color: rgb(199, 211, 210);
+    color: rgb(1, 20, 20);
+    margin-left: 0.5rem;
+    border-radius: 6px;
+    
+}
+
